@@ -1,6 +1,20 @@
 # Mountain-Madness-2023
 Spring 2023 Hackathon at SFU
 
+## Brief Description
+```
+SOMETHING SOMETHING SOMETHING
+```
+
+## Interest in presenting
+- Yes
+
+## Post on sfucsss.org
+- Yes
+
+## Does group contain a woman?
+- Yes
+
 ## Build and Run Instructions
 ```
 BLAH BLAH BLAH 
