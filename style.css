@@ -17,5 +17,24 @@ h1 {
     color: #36393B;
     animation-name: slideIn;
     animation-duration: 1s;
+    padding: 0em 18em;
 
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1em 1em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 11px solid var(--clr-accent);
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+button:hover {
+    transform: translateY(-10px);
 }
