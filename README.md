@@ -16,8 +16,8 @@ BLAH BLAH BLAH
 - GitHub Username:
 
 ### Steven Xu
-- Email:
-- GitHub Username:
+- Email: steven.x2085@gmail.com
+- GitHub Username: stevenxu27
 
 ### Vincent Huang
 - Email: vyh1@sfu.ca
