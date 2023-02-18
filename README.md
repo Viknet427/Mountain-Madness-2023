@@ -7,7 +7,6 @@ BLAH BLAH BLAH
 ```
 
 ## Team Members
-
 ### Eunsong Koh
 - Email:
 - GitHub Username:
