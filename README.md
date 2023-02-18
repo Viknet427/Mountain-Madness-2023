@@ -26,8 +26,8 @@ BLAH BLAH BLAH
 - GitHub Username: eunsongkoh
 
 ### Enoch Muwanguzi
-- Email:
-- GitHub Username:
+- Email: ema77@sfu.ca
+- GitHub Username: Enoch64
 
 ### Steven Xu
 - Email: steven.x2085@gmail.com
