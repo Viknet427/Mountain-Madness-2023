@@ -8,8 +8,8 @@ BLAH BLAH BLAH
 
 ## Team Members
 ### Eunsong Koh
-- Email:
-- GitHub Username:
+- Email: eka74@sfu.ca
+- GitHub Username: eunsongkoh
 
 ### Enoch Muwanguzi
 - Email:
