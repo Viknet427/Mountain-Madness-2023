@@ -1,0 +1,21 @@
+body {
+    background-color: #AFD0D6;
+    font-family: system-ui;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+h1 {
+    color: #36393B;
+    animation-name: slideIn;
+    animation-duration: 1s;
+
+}
