@@ -24,5 +24,5 @@ BLAH BLAH BLAH
 - GitHub Username: Viknet427
 
 ### Kaiser Chen
-- Email:
-- GitHub Username:
+- Email: q2i3p@ugrad.cs.ubc.ca
+- GitHub Username: kaiserchen85
