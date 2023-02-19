@@ -2,6 +2,11 @@ body {
     overflow-x: hidden;
 }
 
+input[type="text"] {
+    width: 200px;
+    text-align: center;
+}
+
 body {
     background-color: #EEEEEE;
     font-family: system-ui;
