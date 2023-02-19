@@ -72,13 +72,14 @@ button:hover {
 }
 
 .header {
+    padding: 1em 20em;
     color: #36393B;
     font-weight: 600;
 }
 
 .inputPart {
     width: 400px;
-    height: 400px;
+    height: 350px;
     background-color: #EEEEEE;
     border: 3px solid#E39774;
     right: 700px;
