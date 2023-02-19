@@ -22,7 +22,6 @@ body {
     }
 }
 
-
 h1 {
     color: #f9f9f2;
     animation-name: slideIn;
@@ -34,7 +33,7 @@ h1 {
 
 
 
-button {
+button { 
     font-size: 1rem;
     font-weight: 800;
     padding: 1em 35em;
@@ -46,7 +45,7 @@ button {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
-}
+} 
 
 button:hover {
     transform: translateY(-10px);
@@ -83,7 +82,6 @@ button:hover {
 }
 
 .desired-phrase {
-    font-size: 25px;
     position: fixed;
     color: #C49799;
     padding: 1em 5em;
@@ -91,6 +89,7 @@ button:hover {
 }
 
 .header {
+    position: fixed;
     padding: 1em 20em;
     color: #d1ec1c;
     font-weight: 600;
@@ -98,18 +97,15 @@ button:hover {
 }
 
 .inputPart {
-    padding: 1em 0em;
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
     border: 3px solid#C49799;
     right: 650px;
     position: fixed;
-    align-items: center;
 }
 
 .outputPart {
-    padding: 1em 0em;
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;

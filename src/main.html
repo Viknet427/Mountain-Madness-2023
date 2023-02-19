@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Document Object</h1>
+<h2>The write() Method</h2>
+
+<p>Write some text directly to the HTML output:</p>
+
+<script type="module" src="Translator.js">
+    let text;
+    let inputLang;
+    let outputLang;
+    let translator;
+    let translatedMessage;
+
+    text = "Hello";
+    inputLang = "en";
+    outputLang = ["zh-Hans"];
+    document.write("hi");
+    translator = new Translator(text, inputLang, outputLang);
+    translatedMessage = translator.translate()
+        .then((result)=> {
+        console.log(result);
+        document.write("<p>" + result + "<\p>");
+        return result;
+    });
+
+</script>
+
+<h2>The Lorem Ipsum Passage</h2>
+<p>This is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+</body>
+</html>
