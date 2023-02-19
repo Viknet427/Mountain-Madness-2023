@@ -4,6 +4,13 @@
     Bogo Translator
 </title>
 
+<style>
+    body {
+        background-image: url('sfu-burnaby-mountain-campus-simon-fraser-university.jpg');
+        background-size: 100% 250%;
+    }
+</style>
+
 <head>
     <link rel="stylesheet" href="style.css">
     <title>bogo translate</title>
@@ -48,11 +55,11 @@ body {
         </h3>
 
 
-        <p id="savedText"> </p>
+        <p id="savedText" class="saveText"> </p>
         <p id="openedText"> </p>
         <label for="name">Enter a Word:</label>
         <input type="text" id="name" class="inputWord">
-        <button class="btn btn-primary" type="submit" onclick="save()"> SAVE </button>
+        <button class="btn btn-primary" color="#5C9EAD" type="submit" onclick="save()"> SAVE </button>
 
 
         <script>
@@ -76,35 +83,9 @@ body {
             Output Word:
         </h3>
 
-        <!--
-        <p id="savedText"> </p>
-        <p id="openedText"> </p>
-        <input type="text" , id="input" /> <br>
-        <button class="saveButton" , onclick="save()"> SAVE </button>
-
-
-        <script>
-            var storedItem = localStorage.getItem("storedItem");
-
-            function save() {
-                var Item = document.getElementById("input").value;
-                localStorage.setItem("storedItem", Item);
-                document.getElementById("savedText").innerHTML = Item + " SAVED";
-            }
-            function get() {
-                localStorage.getItem("storedItem");
-                document.getElementById("openedText").innerHTML = storedItem + " OPENED";
-
-            }
-        </script>
--->
     </div>
 
 </body>
-
-
-
-
 
 
 </html>

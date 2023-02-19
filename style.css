@@ -8,6 +8,15 @@ input[type="text"] {
 }
 
 body {
+    overflow-x: hidden;
+}
+
+input[type="text"] {
+    width: 200px;
+    text-align: center;
+}
+
+body {
     background-color: #EEEEEE;
     font-family: system-ui;
 }
@@ -24,7 +33,7 @@ body {
 
 
 h1 {
-    color: #e5ebef;
+    color: #f9f9f2;
     animation-name: slideIn;
     animation-duration: 1s;
     padding: 0em 12em;
@@ -38,7 +47,7 @@ button {
     font-size: 1rem;
     font-weight: 800;
     padding: 1em 35em;
-    color: var(--clr-accent);
+    color: #5C9EAD;
     background-color: var(--clr-rgba);
     border: 11px solid var(--clr-accent);
     border-radius: 10px;
@@ -76,7 +85,7 @@ button {
     border-radius: 10px;
     border-color: black;
     transition-property: transform;
-    transition-duration: 0.3s;
+    transition-duration: 0.8s;
     transition-timing-function: ease;
     transition-delay: 0s;
     position: fixed;
@@ -85,14 +94,14 @@ button {
 .desired-phrase {
     font-size: 25px;
     position: fixed;
-    color: #5C9EAD;
+    color: #C49799;
     padding: 1em 5em;
     font-weight: 600;
 }
 
 .header {
     padding: 1em 20em;
-    color: #e6edf2;
+    color: #d1ec1c;
     font-weight: 600;
     text-align: center;
 }
@@ -102,7 +111,7 @@ button {
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
-    border: 3px solid#E39774;
+    border: 3px solid#C49799;
     right: 650px;
     position: fixed;
     align-items: center;
@@ -113,7 +122,17 @@ button {
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
-    border: 3px solid#E39774;
+    border: 3px solid#C49799;
     right: 180px;
     position: fixed;
+}
+
+.inputWord {
+    font: system-ui;
+    right: 5px;
+    color: #36393B;
+}
+
+.saveText {
+    padding-top: 10%;
 }
