@@ -7,11 +7,25 @@
 
 <p>Write some text directly to the HTML output:</p>
 
-<script>
-    document.write("Hello World!");
-    let translate = new translate("en", "es");
-    let output = await translate.translate();
-    document.write(output);
+<script type="module" src="Translator.js">
+    let text;
+    let inputLang;
+    let outputLang;
+    let translator;
+    let translatedMessage;
+
+    text = "Hello";
+    inputLang = "en";
+    outputLang = ["zh-Hans"];
+    document.write("hi");
+    translator = new Translator(text, inputLang, outputLang);
+    translatedMessage = translator.translate()
+        .then((result)=> {
+        console.log(result);
+        document.write("<p>" + result + "<\p>");
+        return result;
+    });
+
 </script>
 
 <h2>The Lorem Ipsum Passage</h2>
