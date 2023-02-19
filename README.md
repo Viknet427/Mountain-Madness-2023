@@ -30,7 +30,7 @@ BLAH BLAH BLAH
 - GitHub Username: Enoch64
 
 ### Steven Xu
-- Email: steven.x2085@gmail.com
+- Email: sxu18@student.ubc.ca
 - GitHub Username: stevenxu27
 
 ### Vincent Huang

@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>
+    Bogo Translator
+</title>
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>bogo translator</title>
 </head>
 
 
-<body>
+<body onload="get()">
+    <a href="https://translate.google.com">
+        <button class="Googlebtn">Google Translate</button>
+    </a>
+    <h1>Welcome to <b>Bogo Translate</b></h1>
 
-    <h1>welcome to bogo translator</h1>
+    <div class="inputPart">
+
+        <h3 class="desired-phrase">
+            Input Word:
+        </h3>
+
+
+        <p id="savedText"> </p>
+        <p id="openedText"> </p>
+        <input type="text" id="input" /> <br>
+        <button class="saveButton" , onclick="save()"> SAVE </button>
+
+
+        <script>
+            var storedItem = localStorage.getItem("storedItem");
+
+            function save() {
+                var Item = document.getElementById("input").value;
+                localStorage.setItem("storedItem", Item);
+                document.getElementById("savedText").innerHTML = Item + " SAVED";
+            }
+            function get() {
+                localStorage.getItem("storedItem");
+                document.getElementById("openedText").innerHTML = storedItem + " OPENED";
+
+            }
+        </script>
+    </div>
+    <!--
+    <div class="outputPart">
+        <h3 class="desired-phrase">
+            Output word:
+        </h3>
+
+
+        <p id="savedText"> </p>
+        <p id="openedText"> </p>
+        <input type="text" id="input" /> <br>
+        <button class="saveButton" , onclick="save()"> SAVE </button>
+
+
+        <script>
+            var storedItem = localStorage.getItem("storedItem");
+
+            function save() {
+                var Item = document.getElementById("input").value;
+                localStorage.setItem("storedItem", Item);
+                document.getElementById("savedText").innerHTML = Item + " SAVED";
+            }
+            function get() {
+                localStorage.getItem("storedItem");
+                document.getElementById("openedText").innerHTML = storedItem + " OPENED";
+
+            }
+        </script>
+
+    </div> -->
 
 </body>
-
-
 
 
 
