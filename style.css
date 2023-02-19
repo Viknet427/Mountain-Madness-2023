@@ -123,3 +123,7 @@ button:hover {
     right: 5px;
     color: #36393B;
 }
+
+.saveText {
+    top: 5px;
+}
