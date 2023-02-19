@@ -24,7 +24,7 @@ h1 {
 
 
 
-button { 
+/*button { 
     font-size: 1rem;
     font-weight: 800;
     padding: 1em 35em;
@@ -36,7 +36,7 @@ button {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
-} 
+} */
 
 button:hover {
     transform: translateY(-10px);
