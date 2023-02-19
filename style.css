@@ -24,7 +24,7 @@ body {
 
 
 h1 {
-    color: #36393B;
+    color: #f9f9f2;
     animation-name: slideIn;
     animation-duration: 1s;
     padding: 0em 12em;
@@ -92,7 +92,7 @@ button:hover {
 
 .header {
     padding: 1em 20em;
-    color: #36393B;
+    color: #d1ec1c;
     font-weight: 600;
     text-align: center;
 }
