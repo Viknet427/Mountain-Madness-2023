@@ -1,4 +1,8 @@
 body {
+    overflow-x: hidden;
+}
+
+body {
     background-color: #EEEEEE;
     font-family: system-ui;
 }
@@ -13,18 +17,19 @@ body {
     }
 }
 
+
 h1 {
     color: #36393B;
     animation-name: slideIn;
     animation-duration: 1s;
-    padding: 0em 26em;
+    padding: 0em 12em;
     text-align: center;
 
 }
 
 
 
-button { 
+button {
     font-size: 1rem;
     font-weight: 800;
     padding: 1em 35em;
@@ -36,7 +41,7 @@ button {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
-} 
+}
 
 button:hover {
     transform: translateY(-10px);
@@ -73,15 +78,14 @@ button:hover {
 }
 
 .desired-phrase {
+    font-size: 25px;
     position: fixed;
     color: #5C9EAD;
-    padding: 2em 7.5em;
-
-
+    padding: 1em 5em;
+    font-weight: 600;
 }
 
 .header {
-    position: fixed;
     padding: 1em 20em;
     color: #36393B;
     font-weight: 600;
@@ -89,19 +93,22 @@ button:hover {
 }
 
 .inputPart {
+    padding: 1em 0em;
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
     border: 3px solid#E39774;
-    right: 700px;
+    right: 650px;
     position: fixed;
+    align-items: center;
 }
 
 .outputPart {
+    padding: 1em 0em;
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
     border: 3px solid#E39774;
-    right: 200px;
+    right: 180px;
     position: fixed;
 }
