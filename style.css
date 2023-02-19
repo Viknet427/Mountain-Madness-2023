@@ -17,9 +17,12 @@ h1 {
     color: #36393B;
     animation-name: slideIn;
     animation-duration: 1s;
-    padding: 0em 12.5em;
+    padding: 0em 26em;
+    text-align: center;
 
 }
+
+
 
 /*button { 
     font-size: 1rem;
@@ -39,14 +42,10 @@ button:hover {
     transform: translateY(-10px);
 }
 
-.cheese {
-    width: 100%;
-}
 
 .Googlebtn {
     font-size: 1rem;
     font-weight: 800;
-    padding: 1em 34em;
     color: #C49799;
     background-color: var(--clr-rgba);
     border: 11px solid var(--clr-accent);
@@ -65,22 +64,28 @@ button:hover {
     background-color: var(--clr-rgba);
     border: 11px solid var(--clr-accent);
     border-radius: 10px;
+    border-color: black;
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    position: fixed;
 }
 
 .desired-phrase {
+    position: fixed;
     color: #5C9EAD;
     padding: 2em 7.5em;
+
 
 }
 
 .header {
+    position: fixed;
     padding: 1em 20em;
     color: #36393B;
     font-weight: 600;
+    text-align: center;
 }
 
 .inputPart {

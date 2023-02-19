@@ -14,7 +14,7 @@
 </head>
 
 
-<body class="cheese" , onload="get()">
+<body onload="get()">
     <a href="https://translate.google.com">
         <button class="Googlebtn">Google Translate</button>
     </a>
@@ -22,6 +22,7 @@
 
     <p class="header">
         Translate your word in seconds with the BOGO Translator! Accurate and Promising!
+        
     </p>
 
     <div class="inputPart">
@@ -52,11 +53,35 @@
             }
         </script>
     </div>
-
+    <!--
     <div class="outputPart">
+        <h3 class="desired-phrase">
+            Output word:
+        </h3>
 
 
-    </div>
+        <p id="savedText"> </p>
+        <p id="openedText"> </p>
+        <input type="text" id="input" /> <br>
+        <button class="saveButton" , onclick="save()"> SAVE </button>
+
+
+        <script>
+            var storedItem = localStorage.getItem("storedItem");
+
+            function save() {
+                var Item = document.getElementById("input").value;
+                localStorage.setItem("storedItem", Item);
+                document.getElementById("savedText").innerHTML = Item + " SAVED";
+            }
+            function get() {
+                localStorage.getItem("storedItem");
+                document.getElementById("openedText").innerHTML = storedItem + " OPENED";
+
+            }
+        </script>
+
+    </div> -->
 
 </body>
 
