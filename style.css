@@ -55,6 +55,7 @@ button:hover {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    position: fixed;
 }
 
 .saveButton {
@@ -69,15 +70,18 @@ button:hover {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    position: fixed;
 }
 
 .desired-phrase {
+    position: fixed;
     color: #5C9EAD;
     padding: 2em 7.5em;
 
 }
 
 .header {
+    position: fixed;
     padding: 1em 20em;
     color: #36393B;
     font-weight: 600;
