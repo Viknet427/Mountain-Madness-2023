@@ -38,7 +38,7 @@ button {
     font-size: 1rem;
     font-weight: 800;
     padding: 1em 35em;
-    color: var(--clr-accent);
+    color: #5C9EAD;
     background-color: var(--clr-rgba);
     border: 11px solid var(--clr-accent);
     border-radius: 10px;
@@ -76,7 +76,7 @@ button:hover {
     border-radius: 10px;
     border-color: black;
     transition-property: transform;
-    transition-duration: 0.3s;
+    transition-duration: 0.8s;
     transition-timing-function: ease;
     transition-delay: 0s;
     position: fixed;
@@ -85,7 +85,7 @@ button:hover {
 .desired-phrase {
     font-size: 25px;
     position: fixed;
-    color: #5C9EAD;
+    color: #C49799;
     padding: 1em 5em;
     font-weight: 600;
 }
@@ -102,7 +102,7 @@ button:hover {
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
-    border: 3px solid#E39774;
+    border: 3px solid#C49799;
     right: 650px;
     position: fixed;
     align-items: center;
@@ -113,7 +113,13 @@ button:hover {
     width: 400px;
     height: 350px;
     background-color: #EEEEEE;
-    border: 3px solid#E39774;
+    border: 3px solid#C49799;
     right: 180px;
     position: fixed;
+}
+
+.inputWord {
+    font: system-ui;
+    right: 5px;
+    color: #36393B;
 }
