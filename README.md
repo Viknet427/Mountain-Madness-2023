@@ -3,7 +3,7 @@ Spring 2023 Hackathon at SFU
 
 ## Brief Description
 ```
-SOMETHING SOMETHING SOMETHING
+Our program takes two input prompts for the user: The phrase that needs to be translated as well as the desired output language. It will then output the translation in a designated number of wrong languages, before finally outputting the correct translation in the desired language. 
 ```
 
 ## Interest in presenting
