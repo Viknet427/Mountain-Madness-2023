@@ -39,6 +39,10 @@ button:hover {
     transform: translateY(-10px);
 }
 
+.cheese {
+    width: 100%;
+}
+
 .Googlebtn {
     font-size: 1rem;
     font-weight: 800;
@@ -56,7 +60,7 @@ button:hover {
 .saveButton {
     font-size: 1rem;
     font-weight: 800;
-    padding: 1em 10em;
+    padding: 1em 10.5em;
     color: var(--clr-accent);
     background-color: var(--clr-rgba);
     border: 11px solid var(--clr-accent);
@@ -69,6 +73,8 @@ button:hover {
 
 .desired-phrase {
     color: #5C9EAD;
+    padding: 2em 7.5em;
+
 }
 
 .header {
@@ -88,7 +94,7 @@ button:hover {
 
 .outputPart {
     width: 400px;
-    height: 400px;
+    height: 350px;
     background-color: #EEEEEE;
     border: 3px solid#E39774;
     right: 200px;
