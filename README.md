@@ -3,8 +3,10 @@ Spring 2023 Hackathon at SFU
 
 ## Brief Description
 ```
-Our program takes two input prompts for the user: The phrase that needs to be translated as well as the desired output language. 
-It will then output the translation in a designated number of wrong languages, before finally outputting the correct translation in the desired language. 
+Our program takes two input prompts for the user: The phrase that needs to be // 
+translated as well as the desired output language. 
+It will then output the translation in a designated number of wrong languages, before //
+finally outputting the correct translation in the desired language. 
 ```
 
 ## Interest in presenting
@@ -13,12 +15,15 @@ It will then output the translation in a designated number of wrong languages, b
 ## Post on sfucsss.org
 - Yes
 
-## Does group contain a woman?
+## Does group contain women?
 - Yes
 
 ## Build and Run Instructions
 ```
 To access the website, click here: 
+Website: We utilized HTML and CSS as well as integrated bootstrapping in order to make
+// the website interactive. In our front end developing, we are able to take the user input and
+// store the values for back end use. 
 ```
 
 ## Team Members
