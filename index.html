@@ -12,10 +12,12 @@
 </style>
 
 <head>
+    {{SpellChecker()}}
     <link rel="stylesheet" href="style.css">
     <title>bogo translate</title>
 
-
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
     <meta charset="utf-8">
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
@@ -63,19 +65,15 @@
 
 
         <script>
-            var storedItem = localStorage.getItem("storedItem");
-
-            function save() {
-                var Item = document.getElementById("input").value;
-                localStorage.setItem("storedItem", Item);
-                document.getElementById("savedText").innerHTML = Item + " SAVED";
-            }
-            function get() {
-                localStorage.getItem("storedItem");
-                document.getElementById("openedText").innerHTML = storedItem + " OPENED";
-
+            function getInputValue() {
+                // getting the value of input 
+                var inputVal = document.getElementById("savedText").value;
             }
         </script>
+        <py-script>
+
+
+        </py-script>
     </div>
 
     <div class="outputPart">

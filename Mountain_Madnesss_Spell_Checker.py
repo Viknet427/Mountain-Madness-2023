@@ -7,6 +7,9 @@ from nltk.corpus import words
 
 import ssl
 import requests
+
+import flask
+
 # Path to the cacert.pem file
 cacert_path = "cacert.pem"
 # Load the default SSL context
@@ -17,6 +20,7 @@ ssl_context.load_verify_locations(cafile=cacert_path)
 response = requests.get("https://curl.se/ca/cacert.pem", verify=cacert_path)
 
 nltk.download("words")
+
 
 class SpellingChecker:
     def __init__(self):
@@ -30,7 +34,7 @@ class SpellingChecker:
         self.old_spaces = 0
         self.root.mainloop()
 
-    def check(self,event):
+    def check(self, event):
         content = self.text.get("1.0", tk.END)
         space_count = content.count(" ")
 
@@ -42,8 +46,11 @@ class SpellingChecker:
 
             for word in content.split(" "):
                 if re.sub(r"[^\w]", "", word.lower()) not in words.words():
-                    #print(f"Misspelled word: {word}")
+                    # print(f"Misspelled word: {word}")
                     position = content.find(word)
-                    self.text.tag_add(word, f"1.{position}", f"1.{position + len(word)}")
+                    self.text.tag_add(
+                        word, f"1.{position}", f"1.{position + len(word)}")
                     self.text.tag_config(word, foreground="red")
-SpellingChecker()
+
+
+        return flask.render_template("index.html", main=SpellingChecker())
