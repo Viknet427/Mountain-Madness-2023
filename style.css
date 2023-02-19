@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    color: #36393B;
+    color: #e5ebef;
     animation-name: slideIn;
     animation-duration: 1s;
     padding: 0em 26em;
@@ -38,9 +38,9 @@ button {
     transition-delay: 0s;
 } 
 
-button:hover {
+/*button:hover {
     transform: translateY(-10px);
-}
+} */
 
 
 .Googlebtn {
@@ -83,7 +83,7 @@ button:hover {
 .header {
     position: fixed;
     padding: 1em 20em;
-    color: #36393B;
+    color: #e6edf2;
     font-weight: 600;
     text-align: center;
 }
