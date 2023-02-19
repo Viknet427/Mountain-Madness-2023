@@ -40,3 +40,5 @@ BLAH BLAH BLAH
 ### Kaiser Chen
 - Email: q2i3p@ugrad.cs.ubc.ca
 - GitHub Username: kaiserchen85
+
+permalink: /website.html
